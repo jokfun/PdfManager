@@ -20,23 +20,17 @@ Merge, split, encrypt... your files files by using a command line python program
 
 ## Examples
 
-### 1
-
-Split a single pdf :
+### Split a single pdf :
 ```
 python pdf.py -f test.pdf -s
 ``` 
 
-### 2 
-
-Merge 3 pdfs, the order passed in parameter will be the order of the merge
+### Merge 3 pdfs, the order passed in parameter will be the order of the merge
 ```
 python pdf.py -f file1.pdf file2.pdf file3.pdf -m
 ```
 
-### 3
-
-Encrypt the contents of two documents and display the different steps
+### Encrypt the contents of two documents and display the different steps
 ```
 python pdf.py -f file1.pdf file2.pdf --encrypt --verbose
 Password:
